@@ -22,8 +22,22 @@ console.log("Você gosta de praia?", segundaPergunta)
 
 let x = 5
 let y = 10
+Let z
 
-[x,y]=[y,x]
+z = x
+x = y
+y = z
+
+console.log("Troquei valores x = 10", x)
+console.log("Troquei valores y = 5", y)
+
+let primeiroNumero = Number(prompt("Insira seu primeiro número"))
+let segundoNumero = Number(prompt("Insira seu segundo número"))
+
+let somar = primeiroNumero+segundoNumero
+console.log(somar)
+
+let multiplicar = primeiroNumero+segundoNumero
 
 
 
